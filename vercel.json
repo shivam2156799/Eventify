@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "public": true,
+  "outputDirectory": "Eventify 18",
+  "routes": [
+    { "src": "/", "dest": "/index.html" }
+  ]
+}
