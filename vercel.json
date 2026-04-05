@@ -1,8 +1,11 @@
 {
   "version": 2,
   "public": true,
-  "outputDirectory": "Eventify 18",
+  "builds": [
+    { "src": "Eventify 18/**", "use": "@vercel/static" }
+  ],
   "routes": [
-    { "src": "/", "dest": "/index.html" }
+    { "src": "/", "dest": "/Eventify 18/index.html" },
+    { "src": "/(.*)", "dest": "/Eventify 18/$1" }
   ]
 }
