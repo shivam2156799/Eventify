@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "public": true,
   "builds": [
     { "src": "Eventify 18/**", "use": "@vercel/static" }
   ],
